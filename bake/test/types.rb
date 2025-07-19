@@ -6,7 +6,9 @@
 # Check the types in the specified path.
 # @parameter path [String] The path to the directory containing the tests.
 def types(path: "lib")
-	unless system("steep", "check", path)
+	if system("steep", "check", path)
+		return true
+	else
 		raise "Type check failed for #{path}."
 	end
 end
