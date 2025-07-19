@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require "bake/context"
 
 describe "bake:test:types" do
