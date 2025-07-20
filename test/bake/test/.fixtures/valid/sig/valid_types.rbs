@@ -1,0 +1,8 @@
+class ValidTypes
+  @name: String
+
+  def initialize: () -> void
+  def convert_number: (untyped) -> String
+  def get_strings: () -> Array[String]
+  def get_name: () -> String
+end 
