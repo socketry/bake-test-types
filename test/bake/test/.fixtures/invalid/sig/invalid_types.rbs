@@ -5,4 +5,4 @@ class InvalidTypes
   def convert_number: (Integer) -> String
   def get_strings: () -> Array[String]
   def cause_method_error: () -> void
-end 
+end

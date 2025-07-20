@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
-# This file contains code that will cause steep check to fail
+# Released under the MIT License.
+# Copyright, 2025, by Samuel Williams.
 
 class InvalidTypes
 	def initialize
@@ -20,4 +21,4 @@ class InvalidTypes
 		# More non-existent method calls
 		another_missing_method.chain.more_missing.methods()
 	end
-end 
+end

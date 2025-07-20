@@ -5,4 +5,4 @@ class ValidTypes
   def convert_number: (untyped) -> String
   def get_strings: () -> Array[String]
   def get_name: () -> String
-end 
+end

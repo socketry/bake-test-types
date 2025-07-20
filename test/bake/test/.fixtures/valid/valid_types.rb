@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
-# This file contains valid Ruby code that should pass type checking
+# Released under the MIT License.
+# Copyright, 2025, by Samuel Williams.
 
 class ValidTypes
 	def initialize
@@ -18,4 +19,4 @@ class ValidTypes
 	def get_name
 		@name
 	end
-end 
+end
