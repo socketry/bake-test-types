@@ -3,7 +3,8 @@
 require "bake/context"
 
 describe "bake:test:types" do
-	let(:context) {Bake::Context.load}
+	# We cache this on a per-process basis otherwise coverage won't get computed correctly.
+	let(:context) {@@context ||= Bake::Context.load}
 	let(:recipe) {context.lookup("test:types")}
 	
 	with "valid types" do
